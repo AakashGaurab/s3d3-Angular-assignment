@@ -1,0 +1,8 @@
+
+<div *ngIf="todos.length==0">
+    <h2>No Data</h2>
+</div>
+<div  *ngFor="let item of todos">
+    <h2>{{item.title}}</h2>
+    <p>{{item.description}}</p>
+</div>
